@@ -215,9 +215,13 @@ section{
 .btn{
     display:inline-block;
     padding:14px 30px;
-    border-radius:50px;
+    border-radius:20px;
     font-weight:600;
     transition:.4s;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 
 .primary{
@@ -244,24 +248,21 @@ section{
 }
 
 .social-icons a{
-    width:50px;
-    height:50px;
-
-    border-radius:50%;
-
+    width:60px;
+    height:60px;
+    border-radius:20%;
     display:flex;
     align-items:center;
     justify-content:center;
-
     background:var(--card);
-
     color:var(--text);
-
     backdrop-filter:blur(10px);
-
-    border:1px solid var(--border);
-
+    border:2px solid var(--border);
     transition:.3s;
+    -webkit-border-radius:20%;
+    -moz-border-radius:20%;
+    -ms-border-radius:20%;
+    -o-border-radius:20%;
 }
 
 .social-icons a:hover{
