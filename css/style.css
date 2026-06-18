@@ -147,55 +147,7 @@ section{
    NAVBAR
 =================================== */
 
-.header{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
 
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-
-    padding:18px 10%;
-
-    backdrop-filter:blur(12px);
-
-    background:rgba(0,0,0,.15);
-
-    z-index:1000;
-}
-
-.logo{
-    color:var(--text);
-    font-size:1.8rem;
-    font-weight:800;
-}
-
-.logo span{
-    color:var(--secondary);
-}
-
-.navbar{
-    display:flex;
-    gap:25px;
-}
-
-.navbar a{
-    color:var(--text);
-    font-weight:500;
-    transition:.3s;
-}
-
-.navbar a:hover{
-    color:var(--primary);
-}
-
-.nav-actions{
-    display:flex;
-    align-items:center;
-    gap:15px;
-}
 
 /* ===================================
    HERO
