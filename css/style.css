@@ -453,17 +453,16 @@ section{
     backdrop-filter:blur(12px);
     box-shadow: 0px 0px 10px #bebebe;
     border:1px solid rgba(255,255,255,.1);
-
     border-radius:20px;
-
     padding:25px;
-
     transition:.4s;
-
     height:100%;
-
     display:flex;
     flex-direction:column;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
 }
 
 .project-card:hover{
@@ -500,7 +499,7 @@ section{
 }
 
 .tech-stack span{
-    background:rgba(0,212,255,.15);
+    background:rgba(79, 113, 120, 0.15);
     color:#00d4ff;
 
     padding:8px 14px;
@@ -558,37 +557,95 @@ section{
     );
 }
 
-/* ===================================
-   CONTACT
-=================================== */
+/* ==========================
+   CONTACT SECTION
+========================== */
+
+.contact{
+    padding:100px 20px;
+}
 
 #contactForm{
     max-width:700px;
-    margin:auto;
+    margin:40px auto 0;
 
     display:flex;
     flex-direction:column;
-
     gap:20px;
 }
 
 #contactForm input,
 #contactForm textarea{
-    padding:16px;
+    width:100%;
+    padding:16px 18px;
+    font-size:1rem;
+    font-family:inherit;
 
-    border-radius:15px;
-
-    border:1px solid var(--border);
+    border:2px solid var(--border);
+    border-radius:10px;
 
     background:var(--card);
-
     color:var(--text);
 
     outline:none;
+
+    transition:0.3s ease;
+
+    box-sizing:border-box;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder{
+    color:var(--text-light);
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus{
+    border-color:var(--primary);
+    box-shadow:0 0 15px rgba(0,123,255,.15);
 }
 
 #contactForm textarea{
     resize:none;
+    min-height:180px;
+}
+
+/* Button */
+
+#contactForm .btn{
+    width:fit-content;
+    padding:14px 35px;
+
+    border:none;
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s ease;
+    align-self:center; 
+}
+
+#contactForm .btn:hover{
+    transform:translateY(-3px);
+}
+
+#contactForm .btn:active{
+    transform:scale(.98);
+}
+
+/* Mobile */
+
+@media (max-width:768px){
+
+    .contact{
+        padding:80px 20px;
+    }
+
+    #contactForm .btn{
+        width:100%;
+        align-self:stretch;
+    }
+
 }
 
 /* ===================================
@@ -611,29 +668,21 @@ footer p{
 
 #topBtn{
     position:fixed;
-
     right:25px;
     bottom:25px;
-
     width:50px;
     height:50px;
-
     border:none;
-
-    border-radius:50%;
-
-    background:linear-gradient(
-    90deg,
-    var(--primary),
-    var(--secondary));
-
+    border-radius:10px;
+    background:linear-gradient(    90deg,    var(--primary),    var(--secondary));
     color:white;
-
     cursor:pointer;
-
     display:none;
-
     z-index:999;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
 }
 
 /* ===================================
