@@ -427,14 +427,14 @@ section{
 .verify-btn{
     display:inline-block;
     padding:10px 20px;
-    border-radius:30px;
-    background:linear-gradient(
-    90deg,
-    #00d4ff,
-    #7c3aed);
-
+    border-radius:12px;
+    background:linear-gradient(    90deg,    #00d4ff,    #7c3aed);
     color:#fff;
     font-weight:600;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
 }
 
 /*==================================
@@ -704,18 +704,17 @@ width:100%;
     padding:16px 18px;
     font-size:1rem;
     font-family:inherit;
-
     border:2px solid var(--border);
-    border-radius:10px;
-
+    border-radius:12px;
     background:var(--card);
     color:var(--text);
-
     outline:none;
-
     transition:0.3s ease;
-
     box-sizing:border-box;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
 }
 
 #contactForm input::placeholder,
