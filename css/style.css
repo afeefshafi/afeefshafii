@@ -395,6 +395,7 @@ section{
 
 .cert-card{
     background:var(--card);
+    box-shadow: 0px 0px 10px #bebebe;
     border:1px solid var(--border);
     border-radius:20px;
     padding:25px;
@@ -450,7 +451,7 @@ section{
 .project-card{
     background:rgba(255,255,255,.05);
     backdrop-filter:blur(12px);
-
+    box-shadow: 0px 0px 10px #bebebe;
     border:1px solid rgba(255,255,255,.1);
 
     border-radius:20px;
@@ -467,7 +468,6 @@ section{
 
 .project-card:hover{
     transform:translateY(-8px);
-    box-shadow:0 15px 35px rgba(0,212,255,.15);
 }
 
 .project-content{
