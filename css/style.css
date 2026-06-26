@@ -158,14 +158,14 @@ section{
 .image-box{
     width:420px;
     height:420px;
-    border-radius:50%;
+    border-radius:7%;
     overflow:hidden;
     border:4px solid var(--text);
     box-shadow:    0 0 30px var(--primary),    0 0 60px rgba(0,212,255,.25);
-    -webkit-border-radius:50%;
-    -moz-border-radius:50%;
-    -ms-border-radius:50%;
-    -o-border-radius:50%;
+    -webkit-border-radius:7%;
+    -moz-border-radius:7%;
+    -ms-border-radius:7%;
+    -o-border-radius:7%;
 }
 
 .image-box img{
@@ -175,7 +175,6 @@ section{
 
 .hero{
     min-height:100vh;
-
     display:grid;
     grid-template-columns:1fr 1fr;
     align-items:center;
@@ -212,13 +211,13 @@ section{
 .btn{
     display:inline-block;
     padding:14px 30px;
-    border-radius:20px;
+    border-radius:12px;
     font-weight:600;
     transition:.4s;
-    -webkit-border-radius:20px;
-    -moz-border-radius:20px;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
+    -webkit-border-radius:12px;
+    -moz-border-radius:12px;
+    -ms-border-radius:12px;
+    -o-border-radius:12px;
 }
 
 .primary{
