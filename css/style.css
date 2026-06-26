@@ -493,7 +493,7 @@ section{
 
     margin-bottom:20px;
 
-    color:#00c8ff;
+    color:#6b6c6c;
 
     font-weight:600;
 
@@ -508,7 +508,7 @@ section{
     justify-content:center;
     align-items:center;
 
-    background:rgba(0,212,255,.12);
+    background:rgba(41, 42, 42, 0.12);
 
     border-radius:12px;
 
