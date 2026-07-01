@@ -126,25 +126,6 @@ section{
 }
 }
 
-/* ===================================
-   PARTICLES
-=================================== */
-
-#particles{
-    position:fixed;
-    inset:0;
-    z-index:-1;
-
-    background:
-    radial-gradient(circle at top left,
-    rgba(0,212,255,.15),
-    transparent 30%),
-
-    radial-gradient(circle at bottom right,
-    rgba(124,58,237,.15),
-    transparent 30%);
-}
-
 
 /* ===================================
    HERO
